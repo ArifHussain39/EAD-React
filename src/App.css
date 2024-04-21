@@ -1,0 +1,16 @@
+.Homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+}
+.Homepage h1{
+    font-size: 3em;
+}
+
+.Homepage ol{
+    font: 2em sans-serif;
+}
