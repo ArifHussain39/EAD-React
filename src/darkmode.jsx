@@ -14,7 +14,7 @@ function Particles() {
     buttonColorLight: '#fff', // default: '#fff'
     saveInCookies: false, // default: true,
     label: '🌓', // default: ''
-    autoMatchOsTheme: true // default: true
+    autoMatchOsTheme: true
   }
   
   const darkmode = new Darkmode(options);
@@ -23,7 +23,6 @@ function Particles() {
   return (
     <>
       <h1>DarkMode</h1>
-      
     </>
   )
 }
