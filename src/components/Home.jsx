@@ -18,7 +18,11 @@ function Home() {
                     </span>
                 </div>
                 <div className="btn-wrapper item">
-                    <button>
+                    <button 
+                        onClick={() => {
+                            addToCartHandler({ price: 1000, name: 'Camera' })
+                        }}
+                    >
                         Add To Cart
                     </button>
                 </div>
