@@ -1,42 +1,63 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.cart-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.img-wrapper img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-wrapper{
+    width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.btn-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
 }
 
-.card {
-  padding: 2em;
+.btn-wrapper button{
+    background-color: #f50057;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.read-the-docs {
-  color: #888;
+.btn-wrapper button:hover{
+    background-color: #ff4081;
+}
+
+.add-to-cart{
+    background-color: #f50057;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+}
+
+.add-to-cart img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.add-to-cart:hover{
+    background-color: #ff4081;
+}
+
+.add-to-cart span{
+    margin-right: 10px;
 }

@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import HomeContainer from './containers/HomeContainer'
 
 function App() {
 
   return (
     <>
-      <h1>React App</h1>
-
+      <HomeContainer />
     </>
   )
 }
